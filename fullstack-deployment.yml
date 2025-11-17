@@ -71,7 +71,7 @@ spec:
     spec:
       containers:
         - name: backend
-          image: niharika412/2300033494-lab-exam-backend:latest # <-- change this
+          image: niharika412/2300033494-exam-backend:latest # <-- change this
           ports:
             - containerPort: 2000
 ---
