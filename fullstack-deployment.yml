@@ -71,7 +71,7 @@ spec:
     spec:
       containers:
         - name: backend
-          image: niharika412/2300033494-lab-backend:latest # <-- change this
+          image: niharika412/2300033494-lab-exam-backend:latest # <-- change this
           ports:
             - containerPort: 2000
 ---
@@ -110,7 +110,7 @@ spec:
     spec:
       containers:
         - name: frontend
-          image: niharika412/2300032939-exam-frontend:latest # <-- change this
+          image: niharika412/2300033494-exam-frontend:latest # <-- change this
           ports:
             - containerPort: 80
             # Points to backend NodePort
