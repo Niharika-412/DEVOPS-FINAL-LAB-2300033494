@@ -32,7 +32,7 @@ jobs:
           context: ./springbootproject
           file: ./springbootproject/backend.Dockerfile
           push: true
-          tags: ${{ secrets.DOCKER_USERNAME }}/2300033494-lab-backend1:latest
+          tags: ${{ secrets.DOCKER_USERNAME }}/2300033494-exam-backend-new:latest
 
       # Step 5 — Build & Push Frontend Image
       - name: Build and Push Frontend Image
@@ -41,4 +41,4 @@ jobs:
           context: ./reactapp
           file: ./reactapp/frontend.Dockerfile
           push: true
-          tags: ${{ secrets.DOCKER_USERNAME }}/2300033494-lab-frontend1:latest
+          tags: ${{ secrets.DOCKER_USERNAME }}/2300033494-exam-frontend-new:latest
